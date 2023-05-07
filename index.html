@@ -8,10 +8,14 @@
     <link rel="icon" href ="favicon.ico">
     <!-- css -->
     <link rel="stylesheet" href="style.css">
+    
+    <!-- fontawesome  -->
+    <script src="https://kit.fontawesome.com/a74487d015.js" crossorigin="anonymous"></script>
+
 </head>
 
 <body class=" border-right">
-      
+    <div class="page-container">
     <!-- Start-- Hero Section -->
     <div class="hero-section  flex-center">
         <div class="logo-container">
@@ -37,13 +41,13 @@
       </div>
       
     <!-- End-- Hero Section -->
-  <hr class="section-seprater"> 
+   
     <!-- Introduction section start -->
     <section class="intro">
       <div class="intro__content">
         <img class="intro__logo" src="assets/logo.jpeg" alt="Curry Leaf Logo">
         <div class="intro__text">
-          <h2 class="intro__heading">Our Vision &amp; Mission</h2>
+          <h2 class="section-heading">Our Vision &amp; Mission</h2>
           <p class="intro__paragraph">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis bibendum est vitae orci suscipit, ut eleifend urna sodales. Aliquam erat volutpat. Sed ullamcorper neque in eleifend malesuada. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla id lacus orci. Donec vel nunc vel enim malesuada sagittis. Fusce non sapien non elit egestas facilisis.
           </p>
@@ -54,8 +58,127 @@
     </section>
     <!-- Introduction section end -->
 
+    <!-- Featured event section start -->
+    <section class="featured-events">
+      <h2 class="section-heading">Featured Events</h2>
+      <div class="event-container">
+      <div class="event-card">
+        <img src="assets/event-image.jpg" alt="Event Image">
+        <h3>Event Topic</h3>
+        <p>Event Description</p>
+        <p>Date: <time datetime="2023-06-01">June 1, 2023</time></p>
+        <a href="#" class="register-button">Register Now</a>
+      </div>
+      <div class="event-card">
+        <img src="assets/event-image.jpg" alt="Event Image">
+        <h3>Event Topic</h3>
+        <p>Event Description</p>
+        <p>Date: <time datetime="2023-06-01">June 1, 2023</time></p>
+        <a href="#" class="register-button">Register Now</a>
+      </div>
+      <div class="event-card">
+        <img src="assets/event-image.jpg" alt="Event Image">
+        <h3>Event Topic</h3>
+        <p>Event Description</p>
+        <p>Date: <time datetime="2023-06-01">June 1, 2023</time></p>
+        <a href="#" class="register-button">Register Now</a>
+      </div>
+    </div>
+      <div class="show-all-button-container">
+        <a href="#" class="show-all-button hero-button">Show All</a>
+      </div>
+    </section>
+    
+    <!-- Featured event section end -->
+     
+    <!-- Testimonial starts  -->
+    <section class="testimonial-section">
+      <h2 class="section-heading">Testimonials</h2>
+      <div class="testimonial-carousel">
+        <div class="testimonial-card flex-center">
+          <p>"I had an amazing experience attending Curry Leaf's workshop. The teaching style is unique and engaging, and I learned a lot from the knowledgeable instructors."</p>
+          <img src="assets/person.jpeg" alt="Person 1">
+          <h3>John Doe</h3>
+        </div>
+        <div class="testimonial-card flex-center">
+          <p>"Curry Leaf's panel discussions are always insightful and thought-provoking. I highly recommend them to anyone interested in mathematics."</p>
+          <img src="assets/person.jpeg" alt="Person 2">
+          <h3>Jane Smith</h3>
+        </div>
+        <div class="testimonial-card flex-center">
+          <p>"The webinars organized by Curry Leaf are top-notch. The presenters are knowledgeable and the content is always relevant to my studies."</p>
+          <img src="assets/person.jpeg" alt="Person 3">
+          <h3>Bob Johnson</h3>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Testimonial ends  -->
+    
+    <!-- website stats start -->
+    <section class="website-stats">
+      <div class="stats-container">
+        <div class="stats-card">
+          <h3>Members</h3>
+          <p class="count">52</p>
+        </div>
+        <div class="stats-card border">
+          <h3>Alumni</h3>
+          <p class="count">1240</p>
+        </div>
+        <div class="stats-card">
+          <h3>Views</h3>
+          <p class="count">897</p>
+        </div>
+      </div>
+    </section>
+    
+    <!-- website stats end -->
 
+    <section class="footer">
+      <div class="footer-links">
+        <div class="footer-list">
+          <h4>Archive</h4>
+          <ul>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">Newsletters</a></li>
+            <li><a href="#">Blog Posts</a></li>
+          </ul>
+        </div>
+        <div class="footer-list">
+          <h4>Navigation</h4>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="footer-list">
+          <h4>External Links</h4>
+          <ul>
+            <li><a href="#">MTTS</a></li>
+            <li><a href="#">Math Stack Exchange</a></li>
+            <li><a href="#">Arxiv</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-info flex-center">
+        <div class="footer-email ">
+
+          <a href="mailto:curryleaf@example.com">curryleaf@example.com</a>
+        </div>
+        <div class="footer-social">
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+      </div>
+    </section>
+  </div>
     <script src ="script.js" ></script>
-</body>
+    
+  </body>
 
 </html>
